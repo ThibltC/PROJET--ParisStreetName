@@ -1,0 +1,21 @@
+.Response {
+    background: linear-gradient(to left, #3c3e3f, #ffffff, #3c3e3f);
+    width: 70vw;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 10px 15px 8px 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    animation: fadein 1s;
+}
+.fadein {
+    animation: fadein 1s;
+}
+.info {
+    margin: 0px 20px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
